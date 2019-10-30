@@ -24,7 +24,7 @@ import (
 所支持的语法，请参见parser.go
 
 运行脚本：
-在命令行下，键入：go script
+在命令行执行命令：go run ../dragon
 则进入一个REPL界面。你可以依次敲入命令。比如：
  > 2+3;
  > int age = 10;
