@@ -108,12 +108,17 @@ script 一个脚本解释器。可以进入一个REPL界面。
 ```bash
 go run ../dragon
 ```
-
-语法规则：
+你可以依次敲入命令。比如：
 
 ```
-你可以依次敲入命令。比如：
- > 2+3;
- > exit();  //退出REPL界面。
+go run ../dragon
+It is a script language. It is written by golang!
+Input your code.
+>
+> 2+3;
+> 2+2*3;
+> 2*2+3*4;
+> 2+3+4/2;  
+> exit();  //退出REPL界面。
 ```
 
